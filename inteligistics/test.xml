@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name="Simple Logger Suite">
+    <listeners>
+        <listener class-name="BaseSteps.CustomListener"/>
+    </listeners>
+
+    <test name="login">
+        <classes>
+            <class name="test.login.LoginTest"/>
+        </classes>
+    </test>
+</suite>
